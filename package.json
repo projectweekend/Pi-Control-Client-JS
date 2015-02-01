@@ -1,0 +1,24 @@
+{
+  "name": "pi-control-client",
+  "version": "1.0.0",
+  "description": "A Node.js client for remotely controlling a Raspberry Pi running Pi-Control-Service (https://github.com/projectweekend/Pi-Control-Service)",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/projectweekend/Pi-Control-Client-JS.git"
+  },
+  "author": "Brian Hines",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/projectweekend/Pi-Control-Client-JS/issues"
+  },
+  "homepage": "https://github.com/projectweekend/Pi-Control-Client-JS",
+  "dependencies": {
+    "amqplib": "^0.3.0",
+    "async": "^0.9.0",
+    "node-uuid": "^1.4.2"
+  }
+}
